@@ -1,0 +1,58 @@
+.img{
+    width: 25px;
+    height: 25px;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1020;
+    margin: 0 auto;
+}
+.nav-container{
+    position: fixed;
+    bottom: 30px;
+    width: 400px;
+    left: 50%;
+    margin-left: -208px;
+    padding: 0.05em;
+    border-radius: 60px;
+    cursor: pointer;
+    background: #e0e0e0;
+    box-shadow: 6px 6px ;
+}
+.nav-container ul{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 0.5px;
+}
+.nav-container ul li{
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+/* style hr after you have added onclick event and set menu */
+hr{
+    width: 40px;
+    height: 4px;
+    margin-top: 4px;
+    border-radius: 10px;
+    background: blueviolet;
+}
+@media screen and (max-width : 480px) {
+    .nav-container{
+        width: 100%;
+        border-radius: 50px;
+        bottom: 20px;
+        margin-left: 0;
+        left: 0;
+    }
+    .nav-container ul{
+        gap: 50px;
+    }
+}
